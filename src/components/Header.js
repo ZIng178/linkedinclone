@@ -12,7 +12,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logout, selectUser } from "../features/userSlice";
 
 const Header = () => {
-  const user = useSelector(selectUser);
+  // const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
   const logoutOfApp = () => {
